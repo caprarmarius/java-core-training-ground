@@ -31,11 +31,6 @@ public class PrimitivesAndBasicOperations {
         //We can also initialize a variable right when declaring it
         int y = 59; //declaration and initialization at the same time
 
-        //Java is an Object Oriented language based on C programming language
-        //Even if in Object Oriented Programming (OOP), the consensus is that all data values are objects
-        //there are still the basic data types that have been inherited from C. (except for boolean)
-        //These are called Primitive Data Types in Java and their values are not objects.
-
         //There are 8 primitive data types in Java
         /*They are:
             int - integer values (-5, 2 , 3)
@@ -49,9 +44,17 @@ public class PrimitivesAndBasicOperations {
          */
 
         //int - primitive integer
-        //values of integer numbers between -2,147,483,648 and 2,147,483,647
-        //occupies 4 bytes of memory
+        //values of integer numbers between -2,147,483,648 and 2,147,483,647 (aprox. plus and minus 2 billion)
+        //occupies 4 bytes of memory by default
         int intExample = 1250; //this  allocates 4 bytes in memory and stores the value 1250 in there
+
+        System.out.println("Int example: " + intExample); //this is how to print a value in java
+
+        //boolean
+        //can take only true or false values and are used for logical operations
+        //occupies one byte of memory by default
+        boolean b = true;
+         
 
     }
 }
